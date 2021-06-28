@@ -25,7 +25,7 @@ function createCityCard(city){
     let iconCode = `${city.weather[0].icon}`;
     console.log(iconCode);
     
-    document.body.style.backgroundImage = `url(${iconCode[0] + iconCode[1] + 'd'}.jpeg)`;
+    document.body.style.backgroundImage = `url(./images/${iconCode[0] + iconCode[1] + 'd'}.jpeg)`;
     document.body.style.backgroundSize = "cover";
     
     let iconURL = `http://openweathermap.org/img/wn/${iconCode}@2x.png`;
