@@ -85,8 +85,8 @@ function createCityCard(city){
                  temp.innerHTML=`<strong>Temperature:</strong> ${city.main.temp} <span>&#8451;</span>`
                         feel.innerHTML=`<strong>Feels like:</strong> ${city.main.feels_like} <span>&#8451;</span>`
         
+        //document.getElementById("imageicon").innerHTML=`<img src = ${iconURL} alt = "Weather Icon" id="icon" >`
         document.getElementById("imageicon").innerHTML=`<img src = ${iconURL} alt = "Weather Icon" id="icon" >`
-       
     }
 
 clk.addEventListener("click",findtext);
