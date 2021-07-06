@@ -5,107 +5,132 @@
 
 body{
     /* background: #640eaa; */
-    background: linear-gradient(to right, #822dbb, #2bc8ce); 
-     /*background-image: url(6711-min.webp);*/
+    background: linear-gradient(to right, #822dbb, #2bc8ce);
+     /* background-image: url(6711-min.webp); */
     background-size: 100vw 100vh; 
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     font-family: "poppins", sans-serif;
     margin: 0;
     padding: 0;
+    /* color: #33ff00; */
     min-height: 100vh;
 }
-#formbox{
-    text-align: center;
-    position: absolute;
-    top: 26vh;
-    left: 36vw;
-}
+ /* #formbox{
+
+
+text-align: center;
+position: absolute;
+top: 19vh;
+left: 40vw;
+
+
+}  */
 
 input{
     background: transparent;
-    border-radius: 50px;
-    border: 2px solid blue;
-    box-shadow: 0 5px 10px rgba(154,160,185,0.05),
-        0 15px 40px rgba(0,0,0,0.1);
-    color: black;
-    font-family: inherit;
-    font-size: large;
-    padding: 1rem;
-    margin-bottom: 2rem;
+border-radius: 10px;
+border: 2px solid blue;
+color: black;
+font-family: inherit;
+font-size: large;
+padding: 2vh 2vw;
+position: relative;
+left: 38vw;
+top: 26vh;
 }
 
 
 input::placeholder{
     color: red;
-    font-size: larger;
+    font-size: medium;
 }
 #clk{
-    padding: 4px 16px;
-background: transparent;
-border-radius: 8px;
-text-align: center;
-cursor: pointer;
-font-style: inherit;
-font-size: smaller;
-border: 2px solid blue;
+    background: transparent;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    font-style: inherit;
+    font-size: smaller;
+    border: 2px solid blue;
+    position: relative;
+    top: 25.5vh;
+    left: 37.5vw;
+    display: inline-block;
+    padding: 0vh 1vw;
+
+
 }
 
 #cityname{
-    position: absolute;
-top: 10vh;
-left: 6vw;
-font-size: 25px;
-font-style:italic ;
+    
+
+position: absolute;
+top: 75vh;
+left: 32vw;
+font-size: 2.3vw;
+font-style: italic;
+
 }
 #country{
-    display: inline-block;
-    position: absolute;
-    top: 14vh;
-    left: 6vw;
-    font-size: 25px;
-    font-style: italic;
+
+
+
+    
+        display: inline-block;
+        position: absolute;
+        top: 83vh;
+        left: 33vw;
+        font-size: 2.3vw;
+        font-style: italic;
 }
 #weather{
     position: absolute;
-    top: 10vh;
-    right: 14vw;
-    font-size: 25px;
-    font-style: italic
+top: 59vh;
+right: 50vw;
+font-size: 2.5vw;
+font-style: italic;
+
+
+
 }
 #desc{
-    position: absolute;
-font-size: 20px;
-top: 15vh;
-right: 2vw;
+    
+
+position: absolute;
+font-size: 2.5vw;
+top: 67vh;
+right: 32vw;
 font-style: italic;
+
 }
-#temp{
-    position: absolute;
-font-size: 30px;
+
+#temp {
+
+
+position: absolute;
+font-size: 3vw;
 font-style: italic;
-top: 50vh;
-left: 30vw;
+top: 41vh;
+left: 33vw;
 }
 
 #feel{
-    position: absolute;
-    font-size: 30px;
-    font-style: italic;
-    top: 56vh;
-    left: 30vw;
-}
-#image{
-    position: absolute;
-    top: 43vh;
-    left: 57vw;
+    
 
+    position: absolute;
+font-size: 3vw;
+font-style: italic;
+top: 50vh;
+left: 33vw;
 }
+
 #icon{
-    width: 200%;
-position: relative;
-top: -4vh;
-left: -2vw;
+    width: 12%;
+    position: relative;
+    font-size: 5vw;
+    top: 35vh;
+    left: 62vw;
 }
